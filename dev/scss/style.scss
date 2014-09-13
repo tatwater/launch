@@ -1,0 +1,23 @@
+/*
+Theme Name: Launch
+Theme URI: http://teamlaunch.cc
+Author: Launch WebDev Team
+Author URI: http://teamlaunch.cc/
+Description: Default theme for the main Launch site
+Version: 0.1
+License: Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)
+License URI: https://creativecommons.org/licenses/by-sa/2.0/
+Tags: 
+Text Domain: launch
+*/
+
+@import "base/normalize";
+@import "base/typography";
+
+@import "helpers/variables";
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+
+@import "pages/home";

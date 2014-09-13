@@ -1,6 +1,6 @@
 # Launch Theme README
 
-Welcome to the README for Launch Theme development! Please follow the steps in "Setting up the environment" first.
+Welcome to the README for Launch Theme development! Please follow the steps in "Setting up the environment" first. This assumes you have Git installed on your computer, a GitHub account, and an SSH key hooked up to GitHub.
 
 ## Setting up the environment
 
@@ -10,20 +10,20 @@ Note: This project requires Node.js, Gulp.js, Ruby, and Sass. If you do not have
 2. From [wordpress.org](http://wordpress.org/) download the latest version of WordPress
 3. Configure your WordPress install to the database `launch` on localhost with the table prefix `launch_`
 4. Navigate to `/wp-content/themes/` in your WordPress install and make a new folder called `launch`
-5. From your terminal, navigate to `/themes/launch/` (the new folder) and run `$ git clone GIT_REPOSITORY_ADDRESS` for this repository
+5. From your terminal, navigate to `/themes/launch/` (the new folder) and run `$ git clone git@github.com:tatwater/launch.git` for this repository
 6. Import `launch.sql` into your localhost's `launch` database
-
-Git Ignore?
+7. Log into WordPress by viewing the site in your browser and appending `/wp-admin` to the address bar
+8. Change the theme through Appearance -> Themes
 
 ### Getting Node, Gulp, Ruby, and Sass
 
 1. From [nodejs.org](http://nodejs.org/), download and run the installer
-2. From your terminal, navigate to `/themes/launch/`, and run the following:
+2. From [sass-lang.com](http://sass-lang.com/install/), follow the instructions to install both Ruby and Sass
+3. From your terminal, navigate to `/themes/launch/`, and run the following:
     - `$ npm init`
     - `$ npm install gulp --global`
     - `$ npm install gulp --save-dev`
     - `$ npm install gulp-sass gulp-autoprefixer gulp-minify-css gulp-uglify gulp-svgmin gulp-imagemin --save-dev`
-3. From [sass-lang.com](http://sass-lang.com/install/), follow the instructions to install both Ruby and Sass
 
 ## Working with the Git repository
 
@@ -32,7 +32,7 @@ Before you make any code changes, complete the following steps:
 1. Choose or create an issue in GitHub's issue tracker and assign yourself to it
 2. From your terminal, navigate to `/themes/launch/`, and run the following:
     - `$ git fetch`
-    - `$ git checkout -b iss##` (where ## is the issue tracking number for what you'll be working on)
+    - `$ git checkout -b iss##` (where ## is the issue tracking number for what you'll be working on. **Do not operate on branch `master`**)
 4. If you wish to work with the latest version of the database, import `launch.sql` to your localhost's `launch` database
 5. From `/themes/launch/` in your terminal, run `$ gulp`
 
@@ -54,3 +54,9 @@ When writing your commit messages, write them as though they start with "This wi
  - ` $ git commit -m "Fix wrapping main navigation"`
  - ` $ git commit -m "Add calendar styles"`
  - ` $ git commit -m "Clean up superfluous styles"`
+
+## Working with the codebase
+
+### Sass
+
+This project follows the Sass architecture guidelines outlined at [sitepoint.com](http://sitepoint.com/architecture-sass-project/) to stay as organized as possible.
