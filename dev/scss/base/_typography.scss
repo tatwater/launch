@@ -2,3 +2,54 @@
  * BASE - TYPOGRAPHY
  */
 
+@import "fonts/pt_serif-regular/style.css";
+// @import "fonts/pt_serif-caption/style.css";
+// @import "fonts/pt_serif-bold/style.css";
+
+// @import "fonts/roboto-thin/style.css";
+// @import "fonts/roboto-light/style.css";
+@import "fonts/roboto-regular/style.css";
+// @import "fonts/roboto-medium/style.css";
+@import "fonts/roboto-bold/style.css";
+// @import "fonts/roboto-black/style.css";
+
+// @import "fonts/roboto-condensed-light/style.css";
+// @import "fonts/roboto-condensed-regular/style.css";
+// @import "fonts/roboto-condensed-bold/style.css";
+
+// @import "fonts/roboto-slab-thin/style.css";
+// @import "fonts/roboto-slab-light/style.css";
+@import "fonts/roboto-slab-regular/style.css";
+// @import "fonts/roboto-slab-bold/style.css";
+
+$pt-regular: "pt_serifregular";
+$pt-regular-i: "pt_serifitalic";
+// $pt-medium: "pt_serif_captionregular";
+// $pt-medium-i: "pt_serif_captionitalic";
+// $pt-bold: "pt_serifbold";
+// $pt-bold-i: "pt_serifbold_italic";
+
+// $roboto-thin: "robotothin";
+// $roboto-thin-i: "robotothin_italic";
+// $roboto-light: "robotolight";
+// $roboto-light-i: "robotolight_italic";
+$roboto-regular: "robotoregular";
+$roboto-regular-i: "robotoitalic";
+// $roboto-medium: "robotomedium";
+// $roboto-medium-i: "robotomedium_italic";
+$roboto-bold: "robotobold";
+$roboto-bold-i: "robotobold_italic";
+// $roboto-black: "robotoblack";
+// $roboto-black-i: "robotoblack_italic";
+
+// $roboto-cond-light: "roboto_condensedlight";
+// $roboto-cond-light-i: "roboto_condensedlight_italic";
+// $roboto-cond-regular: "roboto_condensedregular";
+// $roboto-cond-regular-i: "roboto_condenseditalic";
+// $roboto-cond-bold: "roboto_condensedbold";
+// $roboto-cond-bold-i: "roboto_condensedbold_italic";
+
+// $roboto-slab-thin: "roboto_slabthin";
+// $roboto-slab-light: "roboto_slablight";
+$roboto-slab-regular: "roboto_slabregular";
+// $roboto-slab-bold: "roboto_slabbold";

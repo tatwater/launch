@@ -57,6 +57,12 @@ When writing your commit messages, write them as though they start with "This wi
 
 ## Working with the codebase
 
+### Files
+
+The only files you should edit are the `*.php` ones in the theme root and anything in the `/dev/` folder.
+
 ### Sass
 
 This project follows the Sass architecture guidelines outlined at [sitepoint.com](http://sitepoint.com/architecture-sass-project/) to stay as organized as possible.
+
+Brand fonts are all included. If you wish to use one of the brand fonts that has not been activated yet, uncomment both the import line and the variable declaration for the font (and its italic variation if one exists) in `/dev/scss/base/_typography.scss`.

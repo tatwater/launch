@@ -21,3 +21,10 @@ Text Domain: launch
 @import "layout/footer";
 
 @import "pages/home";
+
+html {
+  font-size: 16px;
+}
+body {
+  font-family: $roboto-regular;
+}
