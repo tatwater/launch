@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('roboto-regular-webfont.eot');
+  src: url('roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('roboto-regular-webfont.woff') format('woff'),
+       url('roboto-regular-webfont.ttf') format('truetype'),
+       url('roboto-regular-webfont.svg#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotoitalic';
+  src: url('roboto-italic-webfont.eot');
+  src: url('roboto-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('roboto-italic-webfont.woff') format('woff'),
+       url('roboto-italic-webfont.ttf') format('truetype'),
+       url('roboto-italic-webfont.svg#robotoitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
