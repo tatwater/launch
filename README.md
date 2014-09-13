@@ -9,11 +9,10 @@ Note: This project requires Node.js, Gulp.js, Ruby, and Sass. If you do not have
 1. Create a new database called `launch` on your localhost
 2. From [wordpress.org](http://wordpress.org/) download the latest version of WordPress
 3. Configure your WordPress install to the database `launch` on localhost with the table prefix `launch_`
-4. Navigate to `/wp-content/themes/` in your WordPress install and make a new folder called `launch`
-5. From your terminal, navigate to `/themes/launch/` (the new folder) and run `$ git clone git@github.com:tatwater/launch.git` for this repository
-6. Import `launch.sql` into your localhost's `launch` database
-7. Log into WordPress by viewing the site in your browser and appending `/wp-admin` to the address bar
-8. Change the theme through Appearance -> Themes
+4. Navigate to `/wp-content/themes/` in your WordPress install and run `$ git clone git@github.com:tatwater/launch.git` for this repository
+5. Import `launch.sql` into your localhost's `launch` database
+6. Log into WordPress by viewing the site in your browser and appending `/wp-admin` to the address bar
+7. Change the theme through Appearance -> Themes
 
 ### Getting Node, Gulp, Ruby, and Sass
 
