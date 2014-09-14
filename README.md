@@ -19,10 +19,8 @@ Note: This project requires Node.js, Gulp.js, Ruby, and Sass. If you do not have
 1. From [nodejs.org](http://nodejs.org/), download and run the installer
 2. From [sass-lang.com](http://sass-lang.com/install/), follow the instructions to install both Ruby and Sass
 3. From your terminal, navigate to `/themes/launch/`, and run the following:
-    - `$ npm init`
-    - `$ npm install gulp --global`
-    - `$ npm install gulp --save-dev`
-    - `$ npm install gulp-sass gulp-autoprefixer gulp-minify-css gulp-uglify gulp-svgmin gulp-imagemin --save-dev`
+    - `$ npm install -g gulp` (might need `sudo` at start to get around privileges)
+    - `$ npm install`
 
 ## Working with the Git repository
 
