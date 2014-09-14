@@ -28,8 +28,8 @@ Before you make any code changes, complete the following steps:
 
 1. Choose or create an issue in GitHub's issue tracker and assign yourself to it
 2. From your terminal, navigate to `/themes/launch/`, and run the following:
-    - `$ git fetch`
-    - `$ git checkout -b iss##` (where ## is the issue tracking number for what you'll be working on. **Do not operate on branch `master`**)
+    - `$ git checkout -b iss##` (where ## is the issue tracking number for what you'll be working on. **Do not make changes to branch `master`**)
+    - `$ git pull origin master` (This will bring your new branch up to date with `master`)
 4. If you wish to work with the latest version of the database, import `launch.sql` to your localhost's `launch` database
 5. From `/themes/launch/` in your terminal, run `$ gulp`
 
@@ -44,6 +44,7 @@ After you have made your changes, complete the following steps:
     - `$ git commit -m "COMMIT_MESSAGE"` (See "Git commit style" below)
     - `$ git push origin iss##`
     - `$ git status` again to check that everything is up-to-date
+3. Go to the [GitHub pull requests page](https://github.com/tatwater/launch/pulls) and submit a request to have your changes merged into the `master` branch. You will be notified when your changes go live.
 
 ### Git commit style
 
