@@ -44,7 +44,7 @@ After you have made your changes, complete the following steps:
     - `$ git commit -m "COMMIT_MESSAGE"` (See "Git commit style" below)
     - `$ git push origin iss##`
     - `$ git status` again to check that everything is up-to-date
-3. Go to the [GitHub pull requests page](https://github.com/tatwater/launch/pulls) and submit a request to have your changes merged into the `master` branch. You will be notified when your changes go live.
+3. Go to the [GitHub pull requests page](https://github.com/tatwater/launch/pulls) and submit a request to have your changes merged into the `master` branch. You will be notified when your changes go live!
 
 ### Git commit style
 
