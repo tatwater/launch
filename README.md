@@ -57,7 +57,7 @@ After you have made your changes, complete the following steps:
 When writing your commit messages, write them as though they start with "This will", for example:
  - ` $ git commit -m "Fix wrapping in main navigation"`
  - ` $ git commit -m "Add calendar styles"`
- - ` $ git commit -m "Clean up superfluous styles"`
+ - ` $ git commit -m "Clean up superfluous code"`
 
 ## Working with the codebase
 
