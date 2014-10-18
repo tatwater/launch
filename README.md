@@ -12,7 +12,7 @@ Note: This project requires Node.js, Gulp.js, Ruby, and Sass. If you do not have
 4. Navigate to `/wp-content/themes/` in your WordPress install and run `$ git clone git@github.com:tatwater/launch.git` for this repository
 5. Optional: Import `launch.sql` into your localhost's `launch` database
 6. Log into WordPress by viewing the site in your browser and appending `/wp-admin` to the address bar
-7. Change the theme through Appearance -> Themes
+7. Change the theme through Appearance -> Themes to the "Launch" theme
 
 ### Getting Node, Gulp, Ruby, and Sass
 
