@@ -2,6 +2,12 @@
 
 Welcome to the README for Launch Theme development! Please follow the steps in "Setting up the environment" first. This assumes you have Git installed on your computer, a GitHub account, and an SSH key hooked up to GitHub.
 
+#### Table of Contents
+
+- [Setting up the environment](#setting-up-the-environment)
+- [Working with the git repository](#working-with-the-git-repository)
+- [Working with the codebase](#working-with-the-codebase)
+
 ## Setting up the environment
 
 Note: This project requires Node.js, Gulp.js, Ruby, and Sass. If you do not have these, follow the steps in "Getting Node, Gulp, Ruby, and Sass" after you complete this section.
@@ -10,9 +16,9 @@ Note: This project requires Node.js, Gulp.js, Ruby, and Sass. If you do not have
 2. From [wordpress.org](http://wordpress.org/) download the latest version of WordPress
 3. Configure your WordPress install to the database `launch` on localhost with the table prefix `launch_`
 4. Navigate to `/wp-content/themes/` in your WordPress install and run `$ git clone git@github.com:tatwater/launch.git` for this repository
-5. Import `launch.sql` into your localhost's `launch` database
+5. Optional: Import `launch.sql` into your localhost's `launch` database
 6. Log into WordPress by viewing the site in your browser and appending `/wp-admin` to the address bar
-7. Change the theme through Appearance -> Themes
+7. Change the theme through Appearance -> Themes to the "Launch" theme
 
 ### Getting Node, Gulp, Ruby, and Sass
 
@@ -22,7 +28,7 @@ Note: This project requires Node.js, Gulp.js, Ruby, and Sass. If you do not have
     - `$ npm install -g gulp` (might need `sudo` at start to get around privileges)
     - `$ npm install`
 
-## Working with the Git repository
+## Working with the git repository
 
 Before you make any code changes, complete the following steps:
 
@@ -51,16 +57,30 @@ After you have made your changes, complete the following steps:
 When writing your commit messages, write them as though they start with "This will", for example:
  - ` $ git commit -m "Fix wrapping in main navigation"`
  - ` $ git commit -m "Add calendar styles"`
- - ` $ git commit -m "Clean up superfluous styles"`
+ - ` $ git commit -m "Clean up superfluous code"`
 
 ## Working with the codebase
 
 ### Files
 
-The only files you should edit are the `*.php` ones in the theme root and anything in the `/dev/` folder.
+- The only files you should edit are the `*.php` ones in the theme root and anything in the `/dev/` folder.
+- Please set your indentation size to 2 and use spaces instead of tabs
+
+### Naming conventions
+
+- Be descriptive and clear! A fully-written name like "New Object Name" is clearer than an initilisms like "NON" or abbreviations like using "Obj" instad of "Object".
+- For CSS and JavaScript hooks (classes, IDs, and data attributes), use a lowercase, hyphenated scheme like `new-object-name`
+- For JavaScript variables and functions, use a lower-camelcase scheme like `newObjectName` (Never upper-camelcase like `NewObjectName`!)
+- For images, use a lowercase, hyphenated scheme like `my-image.jpg`. Store unused/backup images in `/dev/img/unused/` so that they won't be compiled by Gulp
 
 ### Sass
 
 This project follows the Sass architecture guidelines outlined at [sitepoint.com](http://sitepoint.com/architecture-sass-project/) to stay as organized as possible.
 
 Brand fonts are all included. If you wish to use one of the brand fonts that has not been activated yet, uncomment both the import line and the variable declaration for the font (and its italic variation if one exists) in `/dev/scss/base/_typography.scss`.
+
+### JavaScript
+
+The majority of `*.js` files will be written entirely in jQuery, but if you can write simpler tasks in straight JavaScript, please do.
+
+JavaScript should interface with HTML primarily through the use of data attributes instead of class or ID names. This is to make very clear which elements are dynamic.
