@@ -10,7 +10,7 @@ Note: This project requires Node.js, Gulp.js, Ruby, and Sass. If you do not have
 2. From [wordpress.org](http://wordpress.org/) download the latest version of WordPress
 3. Configure your WordPress install to the database `launch` on localhost with the table prefix `launch_`
 4. Navigate to `/wp-content/themes/` in your WordPress install and run `$ git clone git@github.com:tatwater/launch.git` for this repository
-5. Import `launch.sql` into your localhost's `launch` database
+5. Optional: Import `launch.sql` into your localhost's `launch` database
 6. Log into WordPress by viewing the site in your browser and appending `/wp-admin` to the address bar
 7. Change the theme through Appearance -> Themes
 
