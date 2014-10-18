@@ -69,7 +69,7 @@ When writing your commit messages, write them as though they start with "This wi
 ### Naming conventions
 
 - Be descriptive and clear! A fully-written name like "New Object Name" is clearer than an initilisms like "NON" or abbreviations like using "Obj" instad of "Object".
-- For CSS hooks (classes, IDs, and data attributes), use a lowercase, hyphenated scheme, like `new-object-name`
+- For CSS and JavaScript hooks (classes, IDs, and data attributes), use a lowercase, hyphenated scheme, like `new-object-name`
 - For JavaScript variables and functions, use a lower-camelcase scheme, like `newObjectName` (Never upper-camelcase like `NewObjectName`!)
 
 ### Sass
@@ -82,4 +82,4 @@ Brand fonts are all included. If you wish to use one of the brand fonts that has
 
 The majority of `*.js` files will be written entirely in jQuery, but if you can write simpler tasks in straight JavaScript, please do.
 
-JavaScript should interface with the HTML primarily through the use of data attributes and never class or ID names. This is to make it very clear which elements are dynamic.
+JavaScript should interface with HTML primarily through the use of data attributes and never class or ID names. This is to make very clear which elements are dynamic.
