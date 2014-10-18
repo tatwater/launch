@@ -82,4 +82,4 @@ Brand fonts are all included. If you wish to use one of the brand fonts that has
 
 The majority of `*.js` files will be written entirely in jQuery, but if you can write simpler tasks in straight JavaScript, please do.
 
-JavaScript should interface with HTML primarily through the use of data attributes and never class or ID names. This is to make very clear which elements are dynamic.
+JavaScript should interface with HTML primarily through the use of data attributes instead of class or ID names. This is to make very clear which elements are dynamic.
