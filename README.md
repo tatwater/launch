@@ -71,6 +71,7 @@ When writing your commit messages, write them as though they start with "This wi
 - Be descriptive and clear! A fully-written name like "New Object Name" is clearer than an initilisms like "NON" or abbreviations like using "Obj" instad of "Object".
 - For CSS and JavaScript hooks (classes, IDs, and data attributes), use a lowercase, hyphenated scheme, like `new-object-name`
 - For JavaScript variables and functions, use a lower-camelcase scheme, like `newObjectName` (Never upper-camelcase like `NewObjectName`!)
+- For images, use a lowercase, hyphenated scheme, like `my-image.jpg`, store unused/backup images in `/dev/img/unused/` so that they won't be compiled by Gulp
 
 ### Sass
 
