@@ -4,7 +4,7 @@ Welcome to the README for Launch Theme development! Please follow the steps in "
 
 #### Table of Contents
 
-- **Setting up the environment**
+- [Setting up the environment](#setting-up-the-environment)
 - **Working with the git repository**
 - **Working with the codebase**
 
