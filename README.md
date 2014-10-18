@@ -2,6 +2,12 @@
 
 Welcome to the README for Launch Theme development! Please follow the steps in "Setting up the environment" first. This assumes you have Git installed on your computer, a GitHub account, and an SSH key hooked up to GitHub.
 
+#### Table of Contents
+
+- **Setting up the environment**
+- **Working with the git repository**
+- **Working with the codebase**
+
 ## Setting up the environment
 
 Note: This project requires Node.js, Gulp.js, Ruby, and Sass. If you do not have these, follow the steps in "Getting Node, Gulp, Ruby, and Sass" after you complete this section.
@@ -22,7 +28,7 @@ Note: This project requires Node.js, Gulp.js, Ruby, and Sass. If you do not have
     - `$ npm install -g gulp` (might need `sudo` at start to get around privileges)
     - `$ npm install`
 
-## Working with the Git repository
+## Working with the git repository
 
 Before you make any code changes, complete the following steps:
 
