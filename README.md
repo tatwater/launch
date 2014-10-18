@@ -63,10 +63,23 @@ When writing your commit messages, write them as though they start with "This wi
 
 ### Files
 
-The only files you should edit are the `*.php` ones in the theme root and anything in the `/dev/` folder.
+- The only files you should edit are the `*.php` ones in the theme root and anything in the `/dev/` folder.
+- Please set your indentation size to 2 and use spaces instead of tabs
+
+### Naming conventions
+
+- Be descriptive and clear! A fully-written name like "New Object Name" is clearer than an initilisms like "NON" or abbreviations like using "Obj" instad of "Object".
+- For CSS hooks (classes, IDs, and data attributes), use a lowercase, hyphenated scheme, like `new-object-name`
+- For JavaScript variables and functions, use a lower-camelcase scheme, like `newObjectName` (Never upper-camelcase like `NewObjectName`!)
 
 ### Sass
 
 This project follows the Sass architecture guidelines outlined at [sitepoint.com](http://sitepoint.com/architecture-sass-project/) to stay as organized as possible.
 
 Brand fonts are all included. If you wish to use one of the brand fonts that has not been activated yet, uncomment both the import line and the variable declaration for the font (and its italic variation if one exists) in `/dev/scss/base/_typography.scss`.
+
+### JavaScript
+
+The majority of `*.js` files will be written entirely in jQuery, but if you can write simpler tasks in straight JavaScript, please do.
+
+JavaScript should interface with the HTML primarily through the use of data attributes and never class or ID names. This is to make it very clear which elements are dynamic.
