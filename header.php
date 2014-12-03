@@ -23,3 +23,15 @@
     <title><?php wp_title( '|', true, 'right' ); ?></title>
   </head>
   <body>
+    <div class="navbar">
+      <div class="content">
+        <div class="logo"><a href=""><img src="<?php bloginfo('template_directory'); ?>/img/rocket-white.png" /> Launch</a></div>
+        <nav>
+          <a class="active" href="">Home</a>
+          <a href="">About Us</a>
+          <a href="">Events</a>
+          <a href="">News</a>
+          <a href="">Join Us</a>
+        </nav>
+      </div>
+    </div>

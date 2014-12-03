@@ -1,6 +1,70 @@
 /*
  * LAYOUT - HEADER
  */
+.navbar {
+  color: #fff;
+  height: 40px;
+  padding-top: 10px;
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  z-index: 10;
+
+  .logo {
+    float: left;
+    font-family: $roboto-medium-i;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: .02em;
+    line-height: 40px;
+    padding-top: 20px;
+    text-transform: lowercase;
+
+    a {
+      color: inherit;
+      display: inline-block;
+      text-decoration: inherit;
+    }
+    img {
+      border-right: 2px solid rgba(255, 255, 255, .7);
+      display: inline-block;
+      height: 40px;
+      margin-right: 8px;
+      padding-right: 4px;
+    }
+  }
+  nav {
+    float: right;
+    font-family: $roboto-regular;
+    font-size: 16px;
+    letter-spacing: .02em;
+    line-height: 40px;
+    padding-top: 20px;
+    text-transform: uppercase;
+
+    a {
+      background: rgba(255, 255, 255, 0);
+      border-radius: 13px;
+      color: inherit;
+      display: inline-block;
+      line-height: 26px;
+      margin-left: 10px;
+      padding: 0 12px;
+      text-decoration: inherit;
+      transition: background .2s ease, color .2s ease;
+
+      &.active {
+        background: rgba(255, 255, 255, .2);
+      }
+
+      &:hover {
+        background: rgba(255, 255, 255, 1);
+        color: #777;
+      }
+    }
+  }
+}
 .hero {
   overflow: hidden;
   position: relative;
@@ -9,7 +73,8 @@
     color: #fff;
 
     &::after {
-      box-shadow: 0 0 500px rgba(0, 0, 0, 1);
+      background: rgba(0, 0, 0, .3);
+      box-shadow: 0 0 400px black;
       content: '';
       display: block;
       height: 700px;
@@ -32,46 +97,21 @@
     }
   }
 
-  .navbar {
-    height: 40px;
-    padding-top: 20px;
-
-    .logo {
-      float: left;
-      font-family: $roboto-medium-i;
-      font-size: 18px;
-      line-height: 40px;
-      letter-spacing: .02em;
-      line-height: 40px;
-      padding-top: 20px;
-      text-transform: lowercase;
-
-      a {
-        color: inherit;
-        display: inline-block;
-        text-decoration: inherit;
-      }
-      img {
-        border-right: 2px solid rgba(255, 255, 255, .7);
-        display: inline-block;
-        height: 40px;
-        margin-right: 10px;
-        padding-right: 4px;
-      }
-    }
-    nav {
-      float: right;
-      font-family: $roboto-medium;
-      font-size: 18px;
-      line-height: 40px;
-      padding-top: 20px;
-    }
+  .content {
+    margin-top: 200px;
+    margin-bottom: 250px;
+    padding: 0 70px;
   }
   h1 {
     font-family: $roboto-black;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 90px;
-    margin: 180px 60px 250px 60px;
     text-transform: uppercase;
+  }
+  p {
+    font-family: $roboto-medium-i;
+    font-size: 20px;
+    margin: 5px 3px;
+    max-width: 600px;
   }
 }
