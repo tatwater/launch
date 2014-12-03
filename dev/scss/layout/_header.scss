@@ -1,4 +1,77 @@
 /*
  * LAYOUT - HEADER
  */
+.hero {
+  overflow: hidden;
+  position: relative;
 
+  &.img {
+    color: #fff;
+
+    &::after {
+      box-shadow: 0 0 500px rgba(0, 0, 0, 1);
+      content: '';
+      display: block;
+      height: 700px;
+      position: absolute;
+        right: 0;
+        bottom: -700px;
+        left: 0;
+      z-index: 5;
+    }
+
+    .shade {
+      background: rgba(0, 0, 0, .15);
+      display: block;
+      position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      z-index: 0;
+    }
+  }
+
+  .navbar {
+    height: 40px;
+    padding-top: 20px;
+
+    .logo {
+      float: left;
+      font-family: $roboto-medium-i;
+      font-size: 18px;
+      line-height: 40px;
+      letter-spacing: .02em;
+      line-height: 40px;
+      padding-top: 20px;
+      text-transform: lowercase;
+
+      a {
+        color: inherit;
+        display: inline-block;
+        text-decoration: inherit;
+      }
+      img {
+        border-right: 2px solid rgba(255, 255, 255, .7);
+        display: inline-block;
+        height: 40px;
+        margin-right: 10px;
+        padding-right: 4px;
+      }
+    }
+    nav {
+      float: right;
+      font-family: $roboto-medium;
+      font-size: 18px;
+      line-height: 40px;
+      padding-top: 20px;
+    }
+  }
+  h1 {
+    font-family: $roboto-black;
+    font-size: 100px;
+    line-height: 90px;
+    margin: 180px 60px 250px 60px;
+    text-transform: uppercase;
+  }
+}

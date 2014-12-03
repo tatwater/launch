@@ -9,9 +9,9 @@
 // @import "fonts/roboto-thin/style.css";
 // @import "fonts/roboto-light/style.css";
 @import "fonts/roboto-regular/style.css";
-// @import "fonts/roboto-medium/style.css";
+@import "fonts/roboto-medium/style.css";
 @import "fonts/roboto-bold/style.css";
-// @import "fonts/roboto-black/style.css";
+@import "fonts/roboto-black/style.css";
 
 // @import "fonts/roboto-condensed-light/style.css";
 // @import "fonts/roboto-condensed-regular/style.css";
@@ -21,6 +21,8 @@
 // @import "fonts/roboto-slab-light/style.css";
 @import "fonts/roboto-slab-regular/style.css";
 // @import "fonts/roboto-slab-bold/style.css";
+
+
 
 $pt-regular: "pt_serifregular";
 $pt-regular-i: "pt_serifitalic";
@@ -35,12 +37,12 @@ $pt-regular-i: "pt_serifitalic";
 // $roboto-light-i: "robotolight_italic";
 $roboto-regular: "robotoregular";
 $roboto-regular-i: "robotoitalic";
-// $roboto-medium: "robotomedium";
-// $roboto-medium-i: "robotomedium_italic";
+$roboto-medium: "robotomedium";
+$roboto-medium-i: "robotomedium_italic";
 $roboto-bold: "robotobold";
 $roboto-bold-i: "robotobold_italic";
-// $roboto-black: "robotoblack";
-// $roboto-black-i: "robotoblack_italic";
+$roboto-black: "robotoblack";
+$roboto-black-i: "robotoblack_italic";
 
 // $roboto-cond-light: "roboto_condensedlight";
 // $roboto-cond-light-i: "roboto_condensedlight_italic";

@@ -2,3 +2,11 @@
  * LAYOUT - GRID
  */
 
+.content {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 20px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
