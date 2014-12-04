@@ -1,0 +1,18 @@
+.button {
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid #fff;
+  border-radius: 23px;
+  line-height: 2rem;
+  padding: 5px 22px;
+  transition: opacity .2s ease, background .2s ease;
+
+  &.right {
+    float: right;
+    margin-left: 100px;
+  }
+
+  &:hover {
+    background: rgba(0, 0, 0, .1);
+    opacity: .8;
+  }
+}

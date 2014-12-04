@@ -1,0 +1,17 @@
+/*
+ * PAGES - HOME
+ */
+
+.hero.img.home {
+  background-image: url('img/home.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+
+  h1 {
+    font-size: 95px;
+    line-height: 95px;
+  }
+}

@@ -5,7 +5,7 @@
   color: #fff;
   height: 40px;
   padding-top: 10px;
-  position: fixed;
+  position: absolute;
     top: 0;
     right: 0;
     left: 0;
@@ -48,9 +48,9 @@
       border-radius: 13px;
       color: inherit;
       display: inline-block;
-      line-height: 26px;
+      line-height: 28px;
       margin-left: 10px;
-      padding: 0 12px;
+      padding: 0 15px;
       text-decoration: inherit;
       transition: background .2s ease, color .2s ease;
 
@@ -74,7 +74,7 @@
 
     &::after {
       background: rgba(0, 0, 0, .3);
-      box-shadow: 0 0 400px black;
+      // box-shadow: 0 0 400px black;
       content: '';
       display: block;
       height: 700px;
@@ -86,7 +86,7 @@
     }
 
     .shade {
-      background: rgba(0, 0, 0, .15);
+      background: rgba(0, 0, 0, .2);
       display: block;
       position: absolute;
         top: 0;
@@ -99,19 +99,43 @@
 
   .content {
     margin-top: 200px;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
     padding: 0 70px;
   }
   h1 {
-    font-family: $roboto-black;
+    font-family: $roboto-bold;
     font-size: 80px;
-    line-height: 90px;
+    line-height: 80px;
     text-transform: uppercase;
+
+    em {
+      font-family: $roboto-bold-i;
+    }
+    span {
+      color: $launch-red;
+      font-size: 1.2em;
+      position: relative;
+        top: -3px;
+    }
   }
   p {
     font-family: $roboto-medium-i;
     font-size: 20px;
-    margin: 5px 3px;
-    max-width: 600px;
+    margin: 20px 0 0 10px;
+
+    &.bar {
+      margin-top: 60px;
+      position: relative;
+
+      &::before {
+        background-color: #fff;
+        content: '';
+        height: 4px;
+        position: absolute;
+          top: -15px;
+          left: -5px;
+        width: 220px;
+      }
+    }
   }
 }

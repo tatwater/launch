@@ -1,0 +1,58 @@
+section {
+  &.video {
+    background: black;
+    position: relative;
+
+    .fa {
+      background: rgba(0, 0, 0, .2);
+      border: 6px solid #fff;
+      border-radius: 50%;
+      color: #fff;
+      display: block;
+      font-size: 90px;
+      height: 150px;
+      line-height: 150px;
+      margin: -75px 0 0 -75px;
+      position: absolute;
+        top: 50%;
+        left: 50%;
+      text-align: center;
+      transition: background .2s ease, opacity .2s ease;
+      width: 150px;
+      z-index: 2;
+
+      &::before {
+        position: relative;
+          top: -6px;
+          right: -8px;
+      }
+      &::after {
+        content: 'Watch our Video';
+        display: block;
+        font-family: $roboto-medium-i;
+        font-size: 1.4rem;
+        line-height: 1em;
+        margin: 20px 0 0 -16px;
+        width: 170px;
+      }
+
+      &:hover {
+        background: rgba(0, 0, 0, .4);
+        opacity: .8;
+      }
+    }
+    img {
+      opacity: .9;
+      position: relative;
+      width: 100%;
+      z-index: 1;
+    }
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
