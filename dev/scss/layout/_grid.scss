@@ -13,3 +13,24 @@ body.customize-support .navbar {
   width: 100%;
   z-index: 1;
 }
+
+.row {
+  font-size: 0;
+
+  .col {
+    display: inline-block;
+    font-size: 1rem;
+    position: relative;
+    vertical-align: top;
+  }
+
+  &.two > .col {
+    width: 50%;
+  }
+  &.three > .col {
+    width: 33.33333%;
+  }
+  &.five > .col {
+    width: 20%;
+  }
+}

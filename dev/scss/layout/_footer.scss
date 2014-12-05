@@ -5,8 +5,68 @@
 footer {
   background: #4a4a4a;
   color: #eee;
-  line-height: 2em;
+  line-height: 32px;
   padding: 50px 0 0;
+
+  .logo {
+    display: block;
+    position: absolute;
+      top: 50%;
+      left: 50%;
+    transform: translate(-30%, 0%);
+    width: 50%;
+  }
+  h3 {
+    color: #ccc;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  nav {
+    color: #aaa;
+    padding-left: 10px;
+
+    &.large {
+      color: #fff;
+      font-family: $roboto-medium;
+      font-size: 1.2em;
+
+      a:hover {
+        color: #ccc;
+      }
+    }
+    a {
+      // display: block;
+
+      &:hover {
+        color: #888;
+      }
+    }
+  }
+  p {
+    color: #bbb;
+    padding: 0 10px;
+
+    a {
+      color: #aaa;
+      text-decoration: underline;
+
+      &:hover {
+        color: #888;
+      }
+
+      strong {
+        text-decoration: none;
+      }
+    }
+    strong {
+      font-family: $roboto-medium;
+    }
+  }
+  a {
+    color: inherit;
+    text-decoration: inherit;
+    transition: color .2s ease;
+  }
 
   .subfoot {
     background: #333;
@@ -17,13 +77,21 @@ footer {
     text-align: center;
 
     a {
-      color: inherit;
       margin: 0 5px;
-      text-decoration: inherit;
-      transition: color .2s ease;
 
       &:hover {
-        color: #ccc;
+        color: #bfbfbf;
+      }
+    }
+    .email {
+      color: #999;
+      display: inline-block;
+      font-size: 14px;
+      margin: 5px 0 -8px;
+      text-transform: uppercase;
+
+      &:hover {
+        color: #7a7a7a;
       }
     }
   }

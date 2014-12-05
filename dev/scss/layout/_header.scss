@@ -62,6 +62,11 @@
         background: rgba(255, 255, 255, 1);
         color: #777;
       }
+
+      strong {
+        font-family: $roboto-medium;
+        font-weight: normal;
+      }
     }
   }
 }
@@ -114,6 +119,7 @@
     span {
       color: $launch-red;
       font-size: 1.2em;
+      margin: 0 -4px 0 -6px;
       position: relative;
         top: -3px;
     }
@@ -122,6 +128,7 @@
     font-family: $roboto-medium-i;
     font-size: 20px;
     margin: 20px 0 0 10px;
+    max-width: none;
 
     &.bar {
       margin-top: 60px;

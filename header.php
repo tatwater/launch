@@ -31,7 +31,7 @@
           <a href="">About Us</a>
           <a href="">Events</a>
           <a href="">News</a>
-          <a href="">Join Us</a>
+          <a href=""><strong>Join Us</strong></a>
         </nav>
       </div>
     </div>

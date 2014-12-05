@@ -14,7 +14,9 @@ get_header(); ?>
   </div>
 </section>
 <section>
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <div class="content">
+
+  </div>
 </section>
 <section class="video">
   <a><i class="fa fa-play"></i></a>
@@ -23,7 +25,10 @@ get_header(); ?>
   <!-- <iframe src="//player.vimeo.com/video/77712093" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/77712093">Neuehouse</a> from <a href="http://vimeo.com/neuehouse">NeueHouse</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
 </section>
 <section>
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <div class="content">
+    <h2>About Launch</h2>
+    <p>Launch was founded to create a space for people with big ideas to meet and engage others from across the liberal arts curriculum who share a passion for entrepreneurship. We aim to foster innovation through collaborative product development, events, and networking opportunities in a fast-paced yet accessible environment. We strive to bring strong ideas to fruition through interdisciplinary collaboration by building professional relationships and facilitating creative thought.</p>
+  </div>
 </section>
 
 <?php get_footer(); ?>

@@ -57,5 +57,18 @@ $roboto-slab-regular: "roboto_slabregular";
 // $roboto-slab-bold: "roboto_slabbold";
 
 html {
+  color: #444;
   font-size: 18px;
+}
+
+h2 {
+  margin: 0 auto;
+  max-width: 50rem;
+}
+p {
+  font-size: 1rem;
+  letter-spacing: .01em;
+  line-height: 1.8em;
+  margin: 0 auto;
+  max-width: 50rem;
 }
