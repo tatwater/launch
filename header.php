@@ -86,7 +86,7 @@
         <div class="slide" data-bg-img="band.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
           <div class="content">
             <div class="callout">
-              <h1>How can we showcase <span>talents?</span></h1>
+              <h1>How can we more effectively bring <span>talent together?</span></h1>
             </div>
           </div>
         </div>
