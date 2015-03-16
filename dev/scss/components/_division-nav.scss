@@ -1,0 +1,72 @@
+.division-nav {
+  font-family: $roboto-bold;
+  height: 192px;
+  padding: 40px 0;
+  position: relative;
+  z-index: 100;
+
+  ul {
+    list-style-type: none;
+    transition: background .2s ease, padding .2s ease;
+    position: relative;
+    z-index: 100;
+
+    li {
+      display: inline-block;
+      font-size: 1.2rem;
+      padding: 0 20px;
+
+      a {
+        display: block;
+        text-decoration: none;
+
+        &[href="#events"] {
+          color: $launch-green;
+        }
+        &[href="#workshop"] {
+          color: $launch-orange;
+        }
+        &[href="#social"] {
+          color: $launch-pink;
+        }
+        &[href="#launchx"] {
+          color: $launch-dark-blue;
+        }
+        &[href="#admin"] {
+          color: $launch-blue;
+        }
+      }
+      .icon {
+        height: 80px;
+        transition: background .2s ease, height .2s ease, width .2s ease;
+        width: 80px;
+      }
+      p {
+        max-width: 100%;
+      }
+    }
+
+    &.fixed {
+      background: #fff;
+      position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+
+      li {
+        color: #fff;
+        padding: 5px 0;
+
+        .icon {
+          height: 50px;
+          width: 50px;
+          position: relative;
+          z-index: 100;
+        }
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+}

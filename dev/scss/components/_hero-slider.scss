@@ -1,0 +1,43 @@
+.hero-slider {
+  background: #444;
+  height: 100%;
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+  .slick-list,
+  .slick-track {
+    height: 100%;
+  }
+  .slide {
+    height: 100%;
+    width: 100%;
+
+    .content {
+      height: 100%;
+    }
+    .callout {
+      color: #fff;
+      margin-top: 50px;
+      padding: 0 20px;
+      position: absolute;
+        top: 50%;
+        left: 0px;
+      text-align: center;
+      transform: translate(0%, -50%);
+      width: 100%;
+
+      p {
+        margin-top: 30px;
+        max-width: 40em;
+        opacity: .85;
+
+        span {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

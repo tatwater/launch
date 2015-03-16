@@ -1,147 +1,185 @@
 /*
  * LAYOUT - HEADER
  */
-.navbar {
+.page-head {
   color: #fff;
-  height: 40px;
-  padding-top: 10px;
+  height: 90%;
+  position: relative;
+}
+.main-nav {
+  color: #fff;
+  font-family: $roboto-regular;
   position: absolute;
     top: 0;
     right: 0;
     left: 0;
   z-index: 10;
 
-  .logo {
-    float: left;
-    font-family: $roboto-medium-i;
-    font-size: 20px;
-    line-height: 40px;
-    letter-spacing: .02em;
-    line-height: 40px;
-    padding-top: 20px;
-    text-transform: lowercase;
+  .nav-bar {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: none;
+    height: 100px;
+    padding: 30px 0;
+    position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+    transition: background .2s ease, color .2s ease, height .2s ease, padding .2s ease;
 
-    a {
-      color: inherit;
-      display: inline-block;
-      text-decoration: inherit;
+    .search {
+      color: #fff;
     }
-    img {
-      border-right: 2px solid rgba(255, 255, 255, .7);
-      display: inline-block;
-      height: 40px;
-      margin-right: 8px;
-      padding-right: 4px;
-    }
-  }
-  nav {
-    float: right;
-    font-family: $roboto-regular;
-    font-size: 16px;
-    letter-spacing: .02em;
-    line-height: 40px;
-    padding-top: 20px;
-    text-transform: uppercase;
 
-    a {
-      background: rgba(255, 255, 255, 0);
-      border-radius: 13px;
-      color: inherit;
-      display: inline-block;
-      line-height: 28px;
-      margin-left: 10px;
-      padding: 0 15px;
-      text-decoration: inherit;
-      transition: background .2s ease, color .2s ease;
+    &.fixed {
+      background: #fff;
+      border-bottom: none;
+      box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+      color: #444;
+      height: 60px;
+      padding: 10px;
+      position: fixed;
 
-      &.active {
-        background: rgba(255, 255, 255, .2);
+      ul .logo img {
+        &.default {
+          display: none;
+        }
+        &.fixed {
+          display: block;
+        }
       }
-
-      &:hover {
-        background: rgba(255, 255, 255, 1);
-        color: #777;
+      .search {
+        color: #444;
       }
-
-      strong {
-        font-family: $roboto-medium;
-        font-weight: normal;
+      [type="search"] {
+        font-size: 1.4rem;
       }
     }
   }
-}
-.hero {
-  overflow: hidden;
-  position: relative;
+  ul {
+    display: inline-block;
+    font-size: .9rem;
+    line-height: 1.4rem;
+    list-style-type: none;
+    vertical-align: middle;
+    width: 100%;
 
-  &.img {
-    color: #fff;
+    li {
+      display: inline-block;
+      opacity: 1;
+      padding: 0 6px;
+      transition: opacity 1s ease .3s;
+      vertical-align: middle;
 
-    &::after {
-      background: rgba(0, 0, 0, .3);
-      // box-shadow: 0 0 400px black;
-      content: '';
-      display: block;
-      height: 700px;
+      a {
+        color: inherit;
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        transition: opacity .2s ease;
+
+        &:hover {
+          opacity: .7;
+        }
+      }
+
+      &.right {
+        float: right;
+        font-size: 1.2rem;
+        position: relative;
+        z-index: 1;
+      }
+    }
+    .logo {
+      margin-right: 50px;
+      padding: 0;
+
+      a {
+        display: block;
+        padding: 0;
+      }
+      img {
+        height: 40px;
+
+        &.default {
+          display: block;
+        }
+        &.fixed {
+          display: none;
+        }
+      }
+    }
+    .search {
+      cursor: default;
       position: absolute;
-        right: 0;
-        bottom: -700px;
-        left: 0;
-      z-index: 5;
-    }
+        top: 50%;
+        left: 590px;
+      transform: translate(0, -50%);
+      transition: left .2s ease .2s;
+      width: 100%;
 
-    .shade {
-      background: rgba(0, 0, 0, .2);
-      display: block;
-      position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-      z-index: 0;
-    }
-  }
-
-  .content {
-    margin-top: 200px;
-    margin-bottom: 200px;
-    padding: 0 70px;
-  }
-  h1 {
-    font-family: $roboto-bold;
-    font-size: 80px;
-    line-height: 80px;
-    text-transform: uppercase;
-
-    em {
-      font-family: $roboto-bold-i;
-    }
-    span {
-      color: $launch-red;
-      font-size: 1.2em;
-      margin: 0 -4px 0 -6px;
-      position: relative;
-        top: -3px;
-    }
-  }
-  p {
-    font-family: $roboto-medium-i;
-    font-size: 20px;
-    margin: 20px 0 0 10px;
-    max-width: none;
-
-    &.bar {
-      margin-top: 60px;
-      position: relative;
-
-      &::before {
-        background-color: #fff;
-        content: '';
-        height: 4px;
+      button {
+        padding: 8px 10px 12px 10px;
         position: absolute;
-          top: -15px;
-          left: -5px;
-        width: 220px;
+          top: 0;
+          left: 0;
+        transform: translate(0, -50%);
+        z-index: 2;
+      }
+      form {
+        opacity: 0;
+        position: absolute;
+          top: -10000px;
+          left: 0;
+        transform: translate(0, -50%);
+        transition: opacity .2s ease 0s;
+        width: 100%;
+      }
+      [type="search"] {
+        background: none;
+        border: none;
+        display: inline-block;
+        font-family: $roboto-light;
+        font-size: 1.8rem;
+        outline: none;
+        padding: 0 50px;
+        position: relative;
+          top: -2px;
+        transition: font-size .2s ease;
+        vertical-align: middle;
+        width: 100%;
+        z-index: 1;
+      }
+      [type="submit"] {
+        display: block;
+        font-size: 1.8rem;
+        padding-left: 20px;
+        vertical-align: middle;
+        position: absolute;
+          top: -5px;
+          right: 0;
+        z-index: 2;
+      }
+    }
+  }
+
+  &.search-open {
+    li {
+      position: absolute;
+        top: -10000px;
+      opacity: 0;
+      transition: top .2s ease, opacity 1s ease 0s;
+    }
+    .search {
+      display: inline-block;
+      top: 50%;
+      left: 0;
+      opacity: 1;
+      transition: left .2s ease 0s;
+
+      form {
+        opacity: 1;
+        top: 50%;
+        transition: opacity .3s ease .2s;
       }
     }
   }

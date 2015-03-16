@@ -11,26 +11,27 @@ Tags:
 Text Domain: launch
 */
 
+@import "helpers/variables";
+
 @import "base/normalize";
 @import "base/typography";
-
-@import "components/buttons";
-@import "components/home-event-feed";
-
-@import "helpers/variables";
 
 @import "layout/grid";
 @import "layout/header";
 @import "layout/section";
 @import "layout/footer";
 
+@import "components/button";
+@import "components/form";
+@import "components/hero-slider";
+@import "components/to-edge";
+@import "components/modal";
+
 @import "pages/home";
 
-html {
-  font-size: 16px;
+html, body {
   height: 100%;
 }
 body {
-  font-family: $roboto-regular;
-  height: 100%;
+  overflow-x: hidden;
 }

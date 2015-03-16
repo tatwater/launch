@@ -12,6 +12,10 @@ body.customize-support .navbar {
   position: relative;
   width: 100%;
   z-index: 1;
+
+  &.full {
+    max-width: none;
+  }
 }
 
 .row {
@@ -22,6 +26,10 @@ body.customize-support .navbar {
     font-size: 1rem;
     position: relative;
     vertical-align: top;
+
+    &.right {
+      text-align: right;
+    }
   }
 
   &.two > .col {
@@ -29,8 +37,48 @@ body.customize-support .navbar {
   }
   &.three > .col {
     width: 33.33333%;
+
+    &.two {
+      width: 66.66667%;
+    }
+  }
+  &.four > .col {
+    width: 25%;
+
+    &.two {
+      width: 50%;
+    }
+    &.three {
+      width: 75%;
+    }
   }
   &.five > .col {
     width: 20%;
+
+    &.two {
+      width: 40%;
+    }
+    &.three {
+      width: 60%;
+    }
+    &.four {
+      width: 80%;
+    }
+  }
+  &.six > .col {
+    width: 16.66667%;
+
+    &.two {
+      width: 33.33333%;
+    }
+    &.three {
+      width: 50%;
+    }
+    &.four {
+      width: 66.66667%;
+    }
+    &.five {
+      width: 83.33333%;
+    }
   }
 }

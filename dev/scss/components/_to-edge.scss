@@ -1,0 +1,64 @@
+.to-edge {
+  font-size: 0 !important;
+  margin-top: 20px;
+  padding-left: 80px;
+  position: absolute !important;
+    top: 50%;
+    right: 0;
+  transform: translate(0, -50%);
+  transition: width .5s ease-in-out;
+  white-space: nowrap;
+  z-index: 1;
+
+  .toggle-drawer {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    font-size: 80px;
+    height: 100px;
+    outline: none;
+    line-height: 100px;
+    margin-top: 25px;
+    position: absolute;
+      top: 50%;
+      left: 15px;
+    text-align: center;
+    transform: translate(0, -50%);
+    transition: color .2s ease;
+    width: 40px;
+    z-index: 2;
+
+    .left {
+      display: block;
+      position: relative;
+        left: -35px;
+    }
+    .right {
+      display: none;
+      position: relative;
+        left: -16px;
+    }
+
+    &:hover {
+      color: rgba(255, 255, 255, .8);
+    }
+  }
+  .title {
+    display: block;
+    font-family: $roboto-bold;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+    position: relative;
+
+    &::after {
+      border-bottom: 1px solid #fff;
+      content: '';
+      display: block;
+      position: absolute;
+        bottom: -6px;
+      width: 100%;
+    }
+  }
+}
