@@ -6,6 +6,11 @@
 // @import "fonts/pt_serif-caption/style.css";
 // @import "fonts/pt_serif-bold/style.css";
 
+@import "fonts/merriweather-light/style.css";
+@import "fonts/merriweather-regular/style.css";
+@import "fonts/merriweather-bold/style.css";
+@import "fonts/merriweather-black/style.css";
+
 @import "fonts/roboto-thin/style.css";
 @import "fonts/roboto-light/style.css";
 @import "fonts/roboto-regular/style.css";
@@ -23,6 +28,15 @@
 // @import "fonts/roboto-slab-bold/style.css";
 
 
+
+$merriweather-light: 'merriweather_lightregular';
+$merriweather-light-i: 'merriweatherlight_italic';
+$merriweather-regular: 'merriweatherregular';
+$merriweather-regular-i: 'merriweatheritalic';
+$merriweather-bold: 'merriweatherbold';
+$merriweather-bold-i: 'merriweatherbold_italic';
+$merriweather-black: 'merriweather_ultraboldregular';
+$merriweather-black-i: 'merriweatherheavy_italic';
 
 $pt-regular: "pt_serifregular";
 $pt-regular-i: "pt_serifitalic";
@@ -59,7 +73,7 @@ $roboto-slab-regular: "roboto_slabregular";
 html {
   color: #444;
   font-size: 18px;
-  font-family: Georgia;
+  font-family: $merriweather-regular;
 }
 
 h1 {
@@ -99,8 +113,8 @@ h4 {
   text-transform: uppercase;
 }
 p {
-  font-size: 1rem;
-  letter-spacing: .01em;
+  font-size: .9rem;
+  letter-spacing: .02em;
   line-height: 1.8em;
   margin: 0 auto 1.2rem;
   max-width: 50rem;
