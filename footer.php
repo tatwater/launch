@@ -14,11 +14,15 @@
             <div class="col two">
               <nav>
                 <ul>
-                  <li><a href="">About Us</a></li>
                   <li><a href="">Events</a></li>
                   <li><a href="">Workshops</a></li>
-                  <li><a href="">Internships</a></li>
-                  <li><a href="">Another menu item</a></li>
+                  <li><a href="">Launch X</a></li>
+                  <li><a href="">Team</a></li>
+                </ul>
+                <ul>
+                  <li><a href="">Latest News</a></li>
+                  <li><a href="">Launch Library</a></li>
+                  <li><a href="">Made with Launch</a></li>
                 </ul>
               </nav>
             </div>

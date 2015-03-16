@@ -146,7 +146,7 @@ get_header(); ?>
       <div class="content">
         <h2><img class="icon" src="<?php bloginfo('template_directory'); ?>/img/icons-white-screen-social.png" />Social</h2>
         <h3>Entrepreneurship is about community. We get together for dinner every Sunday.</h3>
-        <p>Learn entrepreneurship fundamentals in Workshop, an interdisciplinary curriculum designed to challenge you to put entreprenuership into action through short activities and expert speakers.</p>
+        <p>When diverse viewpoints meet, great things happen. We turn socially beneficial ideas into action by providing collaborative social events where likeminded people can brainstorm solutions to some of the world's most pressing issues.</p>
         <a class="button solid white" href="">Learn more</a>
       </div>
     </div>
