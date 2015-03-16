@@ -79,7 +79,7 @@ $(document).ready(function() {
   $('.hero-slider').slick({
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 4500,
     centerMode: true,
     dots: false,
     draggable: false,

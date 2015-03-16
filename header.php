@@ -25,6 +25,31 @@
     <title><?php wp_title( '|', true, 'right' ); ?></title>
   </head>
   <body>
+    <nav class="main-nav">
+      <div class="nav-bar">
+        <div class="content">
+          <ul class="main">
+            <li class="logo">
+              <a href=""><img class="default" src="<?php bloginfo('template_directory'); ?>/img/launch-screen-wordmark_logo-white.png" /><img class="fixed" src="<?php bloginfo('template_directory'); ?>/img/launch-screen-wordmark_logo-gray.png" /></a>
+            </li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Workshops</a></li>
+            <li><a href="">Launch X</a></li>
+            <li><a href="">Team</a></li>
+            <li class="search">
+              <button class="nobg" data-toggle="search" type="button"><i class="fa fa-search"></i></button>
+              <form>
+                <input type="search" placeholder="What are you looking for?" />
+                <input class="button nobg" type="submit" value="〉" />
+              </form>
+            </li>
+            <li class="right"><a href=""><i class="fa fa-instagram"></i></a></li>
+            <li class="right"><a href=""><i class="fa fa-twitter"></i></a></li>
+            <li class="right"><a href=""><i class="fa fa-facebook"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <header class="page-head">
       <div class="hero-slider" data-description="We're Launch, Connecticut College's entrepreneurship club, and we help turn the liberal arts into action by empowering students to tackle big problems like these <span>through entrepreneurship.</span>">
         <div class="slide" data-bg-img="traffic.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
@@ -105,29 +130,4 @@
           </div>
         </div>
       </div>
-      <nav class="main-nav">
-        <div class="nav-bar">
-          <div class="content">
-            <ul class="main">
-              <li class="logo">
-                <a href=""><img class="default" src="<?php bloginfo('template_directory'); ?>/img/launch-screen-wordmark_logo-white.png" /><img class="fixed" src="<?php bloginfo('template_directory'); ?>/img/launch-screen-wordmark_logo-gray.png" /></a>
-              </li>
-              <li><a href="">Events</a></li>
-              <li><a href="">Workshops</a></li>
-              <li><a href="">Launch X</a></li>
-              <li><a href="">Team</a></li>
-              <li class="search">
-                <button class="nobg" data-toggle="search" type="button"><i class="fa fa-search"></i></button>
-                <form>
-                  <input type="search" placeholder="What are you looking for?" />
-                  <input class="button nobg" type="submit" value="〉" />
-                </form>
-              </li>
-              <li class="right"><a href=""><i class="fa fa-instagram"></i></a></li>
-              <li class="right"><a href=""><i class="fa fa-twitter"></i></a></li>
-              <li class="right"><a href=""><i class="fa fa-facebook"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
     </header>
