@@ -43,9 +43,9 @@
                 <input class="button nobg" type="submit" value="〉" />
               </form>
             </li>
-            <li class="right"><a href=""><i class="fa fa-instagram"></i></a></li>
-            <li class="right"><a href=""><i class="fa fa-twitter"></i></a></li>
-            <li class="right"><a href=""><i class="fa fa-facebook"></i></a></li>
+            <li class="right"><a href="https://instagram.com/teamlaunchcc" target="instagram"><i class="fa fa-instagram"></i></a></li>
+            <li class="right"><a href="https://www.twitter.com/launchconncoll" target="twitter"><i class="fa fa-twitter"></i></a></li>
+            <li class="right"><a href="https://www.facebook.com/launchconncoll" target="facebok"><i class="fa fa-facebook"></i></a></li>
           </ul>
         </div>
       </div>
