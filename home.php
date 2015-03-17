@@ -34,7 +34,7 @@ get_header(); ?>
       <div class="content">
         <h2><img class="icon" src="<?php bloginfo('template_directory'); ?>/img/icons-white-screen-events.png" /> Events</h2>
         <h3>Learn from the best.<br />Experience entrepreneurship.</h3>
-        <p>When diverse viewpoints meet, great things happen. We turn socially beneficial ideas into action by providing collaborative social events where likeminded people can brainstorm solutions to some of the world's most pressing issues.</p>
+        <p>Events are the bread and butter of our programming. From hackathons to symposiums, we're creating events that are accessible for beginniners while being advanced enough even for seasoned entrepreneurs.</p>
         <a class="button solid white" href="">Learn more</a>
       </div>
     </div>
