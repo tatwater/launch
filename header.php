@@ -94,6 +94,27 @@
             </div>
           </div>
         </div>
+        <div class="slide" data-bg-img="faith.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+          <div class="content">
+            <div class="callout">
+              <h1>How can we better recognize and empower the world's <span>faiths and creeds?</span></h1>
+            </div>
+          </div>
+        </div>
+        <div class="slide" data-bg-img="technology.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+          <div class="content">
+            <div class="callout">
+              <h1>How can we create more engaging technology <span>experiences?</span></h1>
+            </div>
+          </div>
+        </div>
+        <div class="slide" data-bg-img="space.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+          <div class="content">
+            <div class="callout">
+              <h1>How can we make the space travel of science fiction <span>a reality?</span></h1>
+            </div>
+          </div>
+        </div>
         <div class="slide" data-bg-img="conflict.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
           <div class="content">
             <div class="callout">
@@ -122,10 +143,24 @@
             </div>
           </div>
         </div>
+        <div class="slide" data-bg-img="exploring.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+          <div class="content">
+            <div class="callout">
+              <h1>How can we take research to new, unexplored heights (both literally <span>and figuratively)?</span></h1>
+            </div>
+          </div>
+        </div>
+        <div class="slide" data-bg-img="jellyfish.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+          <div class="content">
+            <div class="callout">
+              <h1>What if we could use the biophosphorecent proteins in jellyfish to make <span>glow-in-the-dark ice cream?</span></h1>
+            </div>
+          </div>
+        </div>
         <div class="slide" data-bg-img="cultures.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
           <div class="content">
             <div class="callout">
-              <h1>How can we maximize  <span>microfinance?</span></h1>
+              <h1>How can we use microfinance to empower entrepreneurs <span>across the globe?</span></h1>
             </div>
           </div>
         </div>
