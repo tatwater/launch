@@ -6,6 +6,87 @@
  */
 get_header(); ?>
 
+<header class="page-head home">
+  <div class="hero-slider" data-description="We're Launch, Connecticut College's entrepreneurship club, and we help turn the liberal arts into action by empowering students to tackle big problems like these <span>through entrepreneurship.</span>">
+    <div class="slide" data-bg-img="traffic.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+      <div class="content">
+        <div class="callout">
+          <h1>What if traffic became a thing of <span>the past?</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="slide" data-bg-img="shopping.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+      <div class="content">
+        <div class="callout">
+          <h1>What if we could find just what <span>we need?</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="slide" data-bg-img="transportation.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+      <div class="content">
+        <div class="callout">
+          <h1>What if we could invent more <span>efficient transport?</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="slide" data-bg-img="energy.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+      <div class="content">
+        <div class="callout">
+          <h1>What if we could power our cities <span>more efficiently?</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="slide" data-bg-img="income.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+      <div class="content">
+        <div class="callout">
+          <h1>What if we could make investing <span>more accessible?</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="slide" data-bg-img="literacy.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+      <div class="content">
+        <div class="callout">
+          <h1>What if we could improve literacy around <span>the world?</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="slide" data-bg-img="conflict.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+      <div class="content">
+        <div class="callout">
+          <h1>What could we do to make the <span>world safer?</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="slide" data-bg-img="cars.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+      <div class="content">
+        <div class="callout">
+          <h1>What if we could make our fuels — and <span>the earth — cleaner?</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="slide" data-bg-img="band.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+      <div class="content">
+        <div class="callout">
+          <h1>How can we more effectively bring <span>talent together?</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="slide" data-bg-img="library.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+      <div class="content">
+        <div class="callout">
+          <h1>How can we make infomation <span>more accessible?</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="slide" data-bg-img="cultures.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
+      <div class="content">
+        <div class="callout">
+          <h1>How can we maximize  <span>microfinance?</span></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 <section class="signup">
   <div class="content">
     <div class="row two">

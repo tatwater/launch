@@ -3,7 +3,12 @@
  */
 .page-head {
   color: #fff;
-  height: 90%;
+  height: 500px;
+  max-height: 90%;
   overflow: hidden;
   position: relative;
+
+  &.home {
+    height: 90%;
+  }
 }

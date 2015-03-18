@@ -2,6 +2,17 @@ $(document).ready(function() {
   resizeToEdge();
   startSlideIndex = Math.floor(Math.random() * $(".hero-slider .slide").length);
   
+  $(".page-head .background").each(function() {
+    var background = "" + $(this).attr("data-bg-mask") +
+                     ", url('wp-content/themes/launch/img/" + $(this).attr("data-bg-img") + "')";
+    $(this).css({
+      "background": background,
+      "background-position": "50% 50%",
+      "background-repeat": "no-repeat",
+      "background-size": "cover"
+    });
+  });
+  
   $(".hero-slider .slide").each(function() {
     var background = "" + $(this).attr("data-bg-mask") +
                      ", url('wp-content/themes/launch/img/hero-slider/" + $(this).attr("data-bg-img") + "')";
