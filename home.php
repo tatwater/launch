@@ -44,11 +44,11 @@ get_header(); ?>
       <div class="event">
         <div class="box">
           <a href="">
-            <span class="date">04</span>
-            <span class="month">OCT
+            <span class="date">18</span>
+            <span class="month">APR
               <span class="rsvp">RSVP &raquo;</span>
             </span>
-            <p>Very short description about this event, mentioning the speaker name</p>
+            <p>Our biggest speaker event of the year! Theme: Entrepreneurship 101</p>
           </a>
         </div>
       </div>
