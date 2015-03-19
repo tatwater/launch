@@ -4,7 +4,7 @@ $(document).ready(function() {
   
   $(".page-head .background").each(function() {
     var background = "" + $(this).attr("data-bg-mask") +
-                     ", url('wp-content/themes/launch/img/" + $(this).attr("data-bg-img") + "')";
+                     ", url('../wp-content/themes/launch/img/" + $(this).attr("data-bg-img") + "')";
     $(this).css({
       "background": background,
       "background-position": "50% 50%",
@@ -15,7 +15,7 @@ $(document).ready(function() {
   
   $(".hero-slider .slide").each(function() {
     var background = "" + $(this).attr("data-bg-mask") +
-                     ", url('wp-content/themes/launch/img/hero-slider/" + $(this).attr("data-bg-img") + "')";
+                     ", url('../wp-content/themes/launch/img/hero-slider/" + $(this).attr("data-bg-img") + "')";
     $(this).css({
       "background": background,
       "background-position": "50% 50%",

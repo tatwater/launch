@@ -3,10 +3,39 @@
  */
 .page-head {
   color: #fff;
-  height: 500px;
+  height: 600px;
   max-height: 90%;
   overflow: hidden;
   position: relative;
+
+  .background {
+    height: 100%;
+  }
+  .content {
+    height: 100%;
+  }
+  .callout {
+    color: #fff;
+    margin-top: 50px;
+    padding: 0 20px;
+    position: absolute;
+      top: 50%;
+      left: 0px;
+    text-align: center;
+    transform: translate(0%, -50%);
+    width: 100%;
+
+    p {
+      font-size: 1rem;
+      margin-top: 30px;
+      max-width: 40em;
+      opacity: .75;
+
+      span {
+        display: inline-block;
+      }
+    }
+  }
 
   &.home {
     height: 90%;
