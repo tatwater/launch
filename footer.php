@@ -12,7 +12,7 @@
               <img class="logo" src="<?php bloginfo('template_directory'); ?>/img/launch-screen-wordmark_logo-white.png" />
             </div>
             <div class="col two">
-              <nav>
+              <!-- <nav>
                 <ul>
                   <li><a href="">Events</a></li>
                   <li><a href="">Workshops</a></li>
@@ -24,7 +24,7 @@
                   <li><a href="">Launch Library</a></li>
                   <li><a href="">Made with Launch</a></li>
                 </ul>
-              </nav>
+              </nav> -->
             </div>
             <div class="col two">
               <strong>Get updates:</strong>

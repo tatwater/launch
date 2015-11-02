@@ -7,7 +7,7 @@
 get_header(); ?>
 
 <header class="page-head home">
-  <div class="hero-slider" data-description="We're Launch, Connecticut College's entrepreneurship club, and we help turn the liberal arts into action by empowering students to tackle big problems like these <span>through entrepreneurship.</span>">
+  <div class="hero-slider" data-description="We're Launch, Connecticut College's entrepreneurship organization, and we put the liberal arts into action by empowering students to tackle problems like these — both big and small — <span>through entrepreneurship.</span>">
     <div class="slide" data-bg-img="traffic.jpg" data-bg-mask="linear-gradient(rgba(18, 41, 56, .54), rgba(21, 29, 35, .54))">
       <div class="content">
         <div class="callout">
@@ -115,12 +115,12 @@ get_header(); ?>
       <div class="content">
         <h2><img class="icon" src="<?php bloginfo('template_directory'); ?>/img/icons-white-screen-events.png" /> Events</h2>
         <h3>Learn from the best.<br />Experience entrepreneurship.</h3>
-        <p>Events are the bread and butter of our programming. From hackathons to symposiums, we're creating events that are accessible for beginniners while being advanced enough even for seasoned entrepreneurs.</p>
-        <a class="button solid white" href="">Learn more</a>
+        <p>Events are our bread and butter. From hackathons to symposiums, we create opportunities that are accessible to beginniners yet challenging enough for seasoned entrepreneurs.</p>
+        <!-- <a class="button solid white" href="">Learn more</a> -->
       </div>
     </div>
     <div class="col to-edge">
-      <button class="toggle-drawer" data-toggle="events-drawer" type="button"><span class="left">〈</span><span class="right">〉</span></button>
+      <!-- <button class="toggle-drawer" data-toggle="events-drawer" type="button"><span class="left">〈</span><span class="right">〉</span></button> -->
       <span class="title">Upcoming:</span>
       <div class="event">
         <div class="box">
@@ -129,73 +129,8 @@ get_header(); ?>
             <span class="month">APR
               <span class="rsvp">RSVP &raquo;</span>
             </span>
-            <p>Our biggest speaker event of the year! Theme: Entrepreneurship 101</p>
-          </a>
-        </div>
-      </div>
-      <div class="event">
-        <div class="box">
-          <a href="">
-            <span class="date">20</span>
-            <span class="month">OCT
-              <span class="rsvp">RSVP &raquo;</span>
-            </span>
-            <p>Very short description about this event, mentioning the speaker name</p>
-          </a>
-        </div>
-      </div>
-      <div class="event">
-        <div class="box">
-          <a href="">
-            <span class="date">16</span>
-            <span class="month">NOV
-              <span class="rsvp">RSVP &raquo;</span>
-            </span>
-            <p>Very short description about this event, mentioning the speaker name</p>
-          </a>
-        </div>
-      </div>
-      <div class="event">
-        <div class="box">
-          <a href="">
-            <span class="date">04</span>
-            <span class="month">DEC
-              <span class="rsvp">RSVP &raquo;</span>
-            </span>
-            <p>Very short description about this event, mentioning the speaker name</p>
-          </a>
-        </div>
-      </div>
-      <div class="event">
-        <div class="box">
-          <a href="">
-            <span class="date">20</span>
-            <span class="month">DEC
-              <span class="rsvp">RSVP &raquo;</span>
-            </span>
-            <p>Very short description about this event, mentioning the speaker name</p>
-          </a>
-        </div>
-      </div>
-      <div class="event">
-        <div class="box">
-          <a href="">
-            <span class="date">16</span>
-            <span class="month">JAN
-              <span class="rsvp">RSVP &raquo;</span>
-            </span>
-            <p>Very short description about this event, mentioning the speaker name</p>
-          </a>
-        </div>
-      </div>
-      <div class="event">
-        <div class="box">
-          <a href="">
-            <span class="date">04</span>
-            <span class="month">FEB
-              <span class="rsvp">RSVP &raquo;</span>
-            </span>
-            <p>Very short description about this event, mentioning the speaker name</p>
+            <strong>Entrepreneurship 101</strong>
+            <p>Our biggest speaker event of the year! Hear from 5 uniquely experienced...</p>
           </a>
         </div>
       </div>
@@ -209,7 +144,7 @@ get_header(); ?>
         <h2><img class="icon" src="<?php bloginfo('template_directory'); ?>/img/icons-white-screen-workshop.png" />Workshops</h2>
         <h3>How do I start a company? Why is design thinking important? Find out in Workshop.</h3>
         <p>Learn entrepreneurship fundamentals in Workshop, an interdisciplinary curriculum designed to challenge you to put entreprenuership into action through short activities and expert speakers.</p>
-        <a class="button solid white" href="">Learn more</a>
+        <!-- <a class="button solid white" href="">Learn more</a> -->
       </div>
     </div>
     <div class="col to-edge">
@@ -226,9 +161,9 @@ get_header(); ?>
     <div class="col">
       <div class="content">
         <h2><img class="icon" src="<?php bloginfo('template_directory'); ?>/img/icons-white-screen-social.png" />Social</h2>
-        <h3>Entrepreneurship is about community. We get together for dinner every Sunday.</h3>
+        <h3>Entrepreneurship is about community. We get together for dinner every other Sunday.</h3>
         <p>When diverse viewpoints meet, great things happen. We turn socially beneficial ideas into action by providing collaborative social events where likeminded people can brainstorm solutions to some of the world's most pressing issues.</p>
-        <a class="button solid white" href="">Learn more</a>
+        <!-- <a class="button solid white" href="">Learn more</a> -->
       </div>
     </div>
     <div class="col vcenter">
@@ -241,12 +176,12 @@ get_header(); ?>
     <h2><img class="icon" src="<?php bloginfo('template_directory'); ?>/img/icons-white-screen-admin.png" />Admin</h2>
     <h3>Sound cool? Join us and help determine the future of entrepreneurship at Connecticut College.</h3>
     <p>We wouldn't be able to do the things we do if it were not for our dedicated team. We create together, have fun together, and work on ventures together. No experience required.</p>
-    <p class="sans"><strong>We meet Sundays at 9pm in New London Hall 400. Everyone is welcome!</strong></p>
-    <div class="launchx">
+    <p class="sans"><strong>We meet Sundays at 7pm in New London Hall 400. Everyone is welcome!</strong></p>
+    <!-- <div class="launchx">
       <img class="icon" src="<?php bloginfo('template_directory'); ?>/img/icons-white-screen-launchx.png" />
-      <p><strong>Launch X</strong> - A big part of entrepreneurship is experimentation. It's pretty exciting.</p>
+      <p><strong>Launch X</strong> is where we innovate and explore awesome future programs. Like a startup in itself.</p>
       <a class="button solid white thin right" href="">Learn more</a>
-    </div>
+    </div> -->
   </div>
 
   <?php get_footer(); ?>

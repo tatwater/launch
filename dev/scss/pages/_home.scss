@@ -109,10 +109,11 @@ section {
   .event {
     border: 1px solid #fff;
     display: inline-block;
-    height: 200px;
+    height: 210px;
     margin: 5px 20px 0 5px;
     position: relative;
     transition: background .2s ease, color .2s ease;
+    vertical-align: top;
     width: 200px;
 
     .to-edge {
@@ -165,10 +166,18 @@ section {
       transition: background .2s ease, border-color .2s ease;
       width: 62px;
     }
+    strong {
+      display: block;
+      font-family: $roboto-bold;
+      font-size: 16px;
+      margin-top: 6px;
+      white-space: normal;
+    }
     p {
       font-family: $roboto-regular;
       font-size: 16px;
-      margin-top: 10px;
+      margin-top: 2px;
+      opacity: .95;
       white-space: normal;
     }
 
@@ -178,7 +187,7 @@ section {
       box-shadow: 0 0 0 2px $launch-green;
       content: '';
       display: block;
-      height: 200px;
+      height: 210px;
       position: absolute;
         top: -5px;
         left: -5px;

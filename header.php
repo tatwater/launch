@@ -30,9 +30,9 @@
         <div class="content">
           <ul class="main">
             <li class="logo">
-              <a href=""><img class="default" src="<?php bloginfo('template_directory'); ?>/img/launch-screen-wordmark_logo-white.png" /><img class="fixed" src="<?php bloginfo('template_directory'); ?>/img/launch-screen-wordmark_logo-gray.png" /></a>
+              <a href=""><img class="default" src="<?php bloginfo('template_directory'); ?>/img/launch-screen-wordmark_logo-white.png" /><img class="fixed" src="<?php bloginfo('template_directory'); ?>/img/launch-screen-wordmark_logo-red.png" /></a>
             </li>
-            <li><a href="">Events</a></li>
+            <!-- <li><a href="">Events</a></li>
             <li><a href="">Workshops</a></li>
             <li><a href="">Launch X</a></li>
             <li><a href="">Team</a></li>
@@ -42,7 +42,7 @@
                 <input type="search" placeholder="What are you looking for?" />
                 <input class="button nobg" type="submit" value="〉" />
               </form>
-            </li>
+            </li> -->
             <li class="right"><a href="https://instagram.com/teamlaunchcc" target="instagram"><i class="fa fa-instagram"></i></a></li>
             <li class="right"><a href="https://www.twitter.com/teamlaunchcc" target="twitter"><i class="fa fa-twitter"></i></a></li>
             <li class="right"><a href="https://www.facebook.com/launchconncoll" target="facebok"><i class="fa fa-facebook"></i></a></li>
